@@ -24,7 +24,7 @@ Module 22 Challenge
  - Using the dataframe with a temporary view, it took 1.31 seconds to create the final table. 
  - Using the cached data, it took .62 seconds to create the same table. 
  - Using the parquet partioned data, it took 1.78 seconds to create the same table. 
- - The cached data was by far the most effecient. 
+ - The cached data was by far the most effecient. It ran 1.16 seconds faster than the partitioned data. If this were a very large data set, that 1.16 seconds would be proportionally larger. 
 
 ## Code Development source
  - This code was developed using Bootcamp lessons and classroom demonstration videos. 
